@@ -1,0 +1,46 @@
+{
+  "Dashboard": "ڈیش بورڈ",
+
+  "Projects": "پروجیکٹس",
+  "All Projects": "تمام پروجیکٹس",
+  "Add Project": "نیا پروجیکٹ شامل کریں",
+  "Expenses / Income": "اخراجات / آمدنی",
+
+  "Employees": "ملازمین",
+  "All Employees": "تمام ملازمین",
+  "Add Employee": "نیا ملازم شامل کریں",
+  "Expenses / Claims": "اخراجات / کلیمز",
+  "Field Tracking": "فیلڈ ٹریکنگ",
+
+  "Company Assets": "کمپنی کے اثاثے",
+  "All Assets": "تمام اثاثے",
+  "Add Asset": "نیا اثاثہ شامل کریں",
+  "Track Asset": "اثاثہ ٹریک کریں",
+
+  "Attendance": "حاضری",
+  "Mark Attendance": "حاضری لگائیں",
+  "History": "تاریخ",
+
+  "Salary": "تنخواہ",
+  "Settings": "ترتیبات",
+    "Profile": "پروفائل",
+    "Logout": "لاگ آؤٹ",
+    "My Profile": "میری پروفائل",
+    "System Users": "سسٹم صارفین",
+    "All Users": "تمام صارفین",
+    "Add User": "نیا صارف شامل کریں",
+    "Theme Color": "تھیم کا رنگ",
+    "Font Style": "فونٹ اسٹائل",
+    "Quotations": "اقتباسات",
+    "All Quotations": "تمام اقتباسات",
+    "Add Quotation": "نیا اقتباس شامل کریں",
+   "Project Foremans": "پروجیکٹ فورمینز",
+   "Foremans": "فورمینز",
+    "All Salary Lists": "تمام تنخواہ کی فہرستیں",
+    "Add Salary List": "نئی تنخواہ کی فہرست شامل کریں",
+    "Pay Salary": "تنخواہ ادا کریں"
+
+
+
+
+}

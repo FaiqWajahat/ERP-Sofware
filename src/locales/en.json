@@ -1,0 +1,42 @@
+{
+  "Dashboard": "Dashboard",
+
+  "Projects": "Projects",
+  "All Projects": "All Projects",
+  "Add Project": "Add Project",
+  "Expenses / Income": "Expenses / Income",
+
+  "Employees": "Employees",
+  "All Employees": "All Employees",
+  "Add Employee": "Add Employee",
+  "Expenses / Claims": "Expenses / Claims",
+  "Field Tracking": "Field Tracking",
+
+  "Company Assets": "Company Assets",
+  "All Assets": "All Assets",
+  "Add Asset": "Add Asset",
+  "Track Asset": "Track Asset",
+
+  "Attendance": "Attendance",
+  "Mark Attendance": "Mark Attendance",
+  "History": "History",
+
+  "Salary": "Salary",
+   "My Profile": "My Profile",
+    "System Users": "System Users",
+    "All Users": "All Users",
+    "Add User": "Add User",
+  "Settings": "Settings",
+    "Profile": "Profile",
+    "Logout": "Logout",
+    "Theme Color": "Theme Color",
+    "Font Style": "Font Style",
+    "Quotations": "Quotations",
+    "All Quotations": "All Quotations",
+    "Add Quotation": "Add Quotation",
+    "Project Foremans": "Project Foremans",
+   "Foremans": "Foremans",
+   "All Salary Lists": "All Salary Lists",
+   "Add Salary List": "Add Salary List",
+   "Pay Salary": "Pay Salary"
+}

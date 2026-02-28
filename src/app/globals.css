@@ -1,0 +1,60 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: all;
+}
+
+/* Tooltip theme variables */
+:root {
+  /* DYNAMIC MAPPING:
+     We bind your variables to DaisyUI's internal variables.
+     --b1 = Base 100 (Background color)
+     --b3 = Base 300 (Border color)
+     --bc = Base Content (Text color)
+     
+     'oklch()' wraps the raw values to create a valid color.
+  */
+  --tooltip-bg: oklch(var(--b1));     
+  --tooltip-border: oklch(var(--b3)); 
+  --tooltip-text: oklch(var(--bc));   
+
+  /* Custom Primary Overrides */
+  --primary: #AEA488 !important;
+  --primary-color: #AEA488 !important;
+}
+
+/* NOTE: You no longer need a separate [data-theme="dark"] block.
+   Because we used var(--b1), the browser automatically swaps 
+   the values when the theme changes!
+*/
+
+/* Ultra-minimal custom scrollbar */
+
+/* Chrome, Safari, Edge */
+::-webkit-scrollbar {
+  width: 3px;      /* Thinner: reduced from 6px */
+  height: 3px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; 
+}
+
+::-webkit-scrollbar-thumb {
+  /* Dynamic Scrollbar Thumb: Uses base-300 so it adapts to dark mode too */
+  background-color: oklch(var(--b3)); 
+  border-radius: 9999px;    
+}
+
+::-webkit-scrollbar-button {
+  display: none; 
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;           /* Firefox minimal width */
+  scrollbar-color: oklch(var(--b3)) transparent; /* thumb | track */
+}

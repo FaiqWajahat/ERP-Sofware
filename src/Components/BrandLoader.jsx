@@ -41,7 +41,7 @@ export default function Brandloader({ duration = 3000 }) {
         className="text-6xl md:text-9xl font-black text-[#1C8BEE] tracking-tight"
         style={{ fontFamily: "system-ui, -apple-system, sans-serif" }}
       >
-        {"Dashbaord".split("").map((letter, index) => (
+        {"Dashboard".split("").map((letter, index) => (
           <span
             key={index}
             className="inline-block bounce"

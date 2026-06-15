@@ -143,8 +143,28 @@ export default function LoginPage() {
               </div>
             </div>
 
-            {/* Forgot Password */}
-            <div className="flex justify-end">
+            {/* Forgot Password & Guest/Test Toggle */}
+            <div className="flex justify-between items-center">
+              <label className="flex items-center gap-2 cursor-pointer select-none">
+                <input
+                  type="checkbox"
+                  checked={email === 'user@gmail.com' && password === 'user@1234'}
+                  onChange={(e) => {
+                    if (e.target.checked) {
+                      setEmail('user@gmail.com');
+                      setPassword('user@1234');
+                    } else {
+                      setEmail('');
+                      setPassword('');
+                    }
+                  }}
+                  className="toggle toggle-primary toggle-sm"
+                />
+                <span className="text-xs font-medium text-gray-700">
+                  Guest / Test
+                </span>
+              </label>
+
               <button 
                 onClick={() => router.push('/Forgot-Password')}
                 type="button" 
